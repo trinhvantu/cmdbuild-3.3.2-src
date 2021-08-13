@@ -1,0 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package org.cmdbuild.customclassloader;
+
+import javax.annotation.Nullable;
+import static org.apache.commons.lang3.StringUtils.isBlank;
+
+public interface CustomClassloaderService {
+
+    ClassLoader getCustomClassLoader(String path);
+
+    @Nullable
+    default ClassLoader getCustomClassLoaderOrNull(@Nullable String path) {
+        return isBlank(path) ? null : getCustomClassLoader(path);
+    }
+}

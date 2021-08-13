@@ -1,0 +1,12 @@
+META-INF\spring.components
+org\cmdbuild\utils\ws3\test\Ws3RpcTest.class
+org\cmdbuild\utils\ws3\test\Ws3RestTest$MyJsonBean.class
+org\cmdbuild\utils\ws3\test\bean\MyService.class
+org\cmdbuild\utils\ws3\test\Ws3ResourceRepositoryTestImpl.class
+org\cmdbuild\utils\ws3\test\Ws3RestTest$MyContextBean.class
+org\cmdbuild\utils\ws3\test\Ws3RestTest.class
+org\cmdbuild\utils\ws3\test\Ws3RestTest$ParamMapper.class
+org\cmdbuild\utils\ws3\test\Ws3RestTest$MyServiceBeanExt.class
+org\cmdbuild\utils\ws3\test\CookieUtilsTest.class
+org\cmdbuild\utils\ws3\test\Ws3RestTest$MyOtherServiceBean.class
+org\cmdbuild\utils\ws3\test\Ws3RestTest$MyServiceBean.class

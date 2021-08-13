@@ -1,0 +1,4 @@
+org\cmdbuild\utils\testutils\Slow.class
+org\cmdbuild\utils\testutils\IgnoreSlowTestRule.class
+org\cmdbuild\utils\testutils\IgnoreSlowTestRule$IgnorableStatement.class
+org\cmdbuild\utils\testutils\CmdbTestUtils.class

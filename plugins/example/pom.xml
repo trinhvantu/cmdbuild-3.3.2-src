@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	
+    <parent>
+        <groupId>org.cmdbuild</groupId>
+        <artifactId>cmdbuild-parent</artifactId>
+        <version>${revision}</version>
+        <relativePath>../../parent</relativePath>
+    </parent>
+	
+    <artifactId>cmdbuild-plugins-example</artifactId>
+    <packaging>jar</packaging>
+	
+    <!--
+        
+            custom gate example:
+                
+        cp plugins/example/target/cmdbuild-plugins-example-3.2.1-DEV-SNAPSHOT.jar <tomcat-home>/conf/cmdbuild/uploads/cmdbuild-plugins-example.jar # create uploads dir under conf if not exists
+        
+        INSERT INTO "_EtlGate" ("Code","Handlers","AllowPublicAccess") values ('MyScriptGate','[{"type":"script","script":"pack4pdlulw5gz1ipj6ztwa4v0fau201ro3pak34ntojjcdnw2fjm7fzul9vxdv85dhslpplyu7dtujf33073xkitrav9h7vyrjpf2sz6t6t7co0ld71gky75f2sltmb60p3zhcqpu1pa77tic67e7ceowe6obrasnhmxf8zjw2aniq8u1ztz5ljjl2crv4k4nv332ankcap","classpath":"cmdbuild-plugins-example.jar"}]',true);
+                
+        curl  -vv "http://localhost:8080/cmdbuild/services/etl/gate/public/MyScriptGate?myParam=world"          
+        
+        easy edit script with `cmdbuild r editgatescript MyScriptGate`
+        
+    -->
+    
+    <properties>
+    </properties>
+	
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cmdbuild-core-everything</artifactId>
+            <version>${project.version}</version>
+            <type>pom</type> 
+        </dependency>
+    </dependencies>	
+	
+</project>

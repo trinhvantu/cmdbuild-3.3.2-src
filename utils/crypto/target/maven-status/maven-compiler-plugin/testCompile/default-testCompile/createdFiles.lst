@@ -1,0 +1,9 @@
+org\cmdbuild\utils\crypto\test\V3PasswordUtilsTest.class
+org\cmdbuild\utils\crypto\test\CryptoUtilsTest.class
+org\cmdbuild\utils\crypto\test\RandomIdTest.class
+org\cmdbuild\utils\crypto\test\LegacyPasswordUtilsTest.class
+org\cmdbuild\utils\crypto\test\MagicTest.class
+org\cmdbuild\utils\hash\test\HashUtilsTest.class
+org\cmdbuild\utils\encode\test\PackUtilsTest.class
+org\cmdbuild\utils\encode\test\EncodeUtilsTest.class
+org\cmdbuild\utils\crypto\test\RsaTest.class

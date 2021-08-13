@@ -1,0 +1,111 @@
+/* OpenLayer override */
+div.ol-mouse-position {
+  bottom: 8px;
+  right: 8px;
+  top: inherit;
+  background: rgba(0, 60, 136, 0.3);
+  border-radius: 4px;
+  padding: 2px;
+  color: #fff;
+  &:hover {
+    background-color: rgba(0, 60, 136, 0.7);
+  }
+}
+
+div.ol-scale-line:hover {
+  background-color: rgba(0, 60, 136, 0.7);
+}
+
+.ol-search-collapsed {
+  top: 5em;
+  left: 0.5em;
+  .ol-search-icon {
+    &::before {
+      content: "\f002" !important; //search icon
+      font-family: FontAwesome;
+    }
+  }
+
+  .ol-input-text {
+    display: none;
+    margin-right: 0px !important;
+  }
+
+  .ol-search-action {
+    display: none;
+    margin-right: 0px !important;
+    content: "\f002" !important; //search icon
+  }
+
+  .ol-delete-action {
+    display: none;
+    margin-right: 0px !important;
+    content: "\f00d" !important;
+  }
+
+  .ol-span-container {
+    display: none;
+  }
+}
+
+.ol-search-expanded {
+  top: 5em;
+  left: 0.5em;
+
+  .ol-search-icon {
+    display: inline-block !important;
+    margin-right: 3px !important;
+    &::before {
+      content: "\f100" !important; //search icon
+      font-family: FontAwesome;
+    }
+  }
+
+  .ol-input-text {
+    display: inline-block !important;
+    margin-right: 3px !important;
+  }
+
+  .ol-search-action {
+    display: inline-block !important;
+    margin-right: 3px !important;
+    &::before {
+      content: "\f002" !important; //search icon
+      font-family: FontAwesome;
+    }
+  }
+
+  .ol-delete-action {
+    display: inline-block !important;
+    &::before {
+      content: "\f00d" !important;
+      font-family: FontAwesome;
+    }
+  }
+
+  .ol-span-container {
+    padding: 3px;
+    max-width: 228px;
+    margin-top: 3px;
+    background-color: rgba(255, 255, 255, 0.6) !important;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 1) !important;
+    }
+
+    .ol-span {
+      display: block;
+      margin-bottom: 5px;
+      border-bottom: 3px solid #ececec;
+      padding: 3px;
+      cursor: pointer;
+      &:last-child {
+        margin-bottom: 0px;
+        border-bottom: 0px;
+      }
+      &:hover {
+        background-color: $treelist-row-over-background-color;
+      }
+    }
+  }
+}

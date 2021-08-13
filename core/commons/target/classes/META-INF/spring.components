@@ -1,0 +1,12 @@
+#
+#Fri Aug 13 08:02:11 ICT 2021
+org.cmdbuild.eventbus.EventBusServiceImpl=org.springframework.stereotype.Component
+org.cmdbuild.requestcontext.RequestContextServiceImpl=org.springframework.stereotype.Component
+org.cmdbuild.syscommand.SysCommandBus=org.springframework.stereotype.Component
+org.cmdbuild.easytemplate.FtlTemplateServiceImpl=org.springframework.stereotype.Component
+org.cmdbuild.debuginfo.InstanceInfoServiceImpl=org.springframework.stereotype.Component
+org.cmdbuild.audit.RequestDataImpl=org.cmdbuild.dao.orm.annotations.CardMapping
+org.cmdbuild.system.SystemEventbusServiceImpl=org.springframework.stereotype.Component
+org.cmdbuild.spring.SpringIntegrationUtils=org.springframework.stereotype.Component
+org.cmdbuild.cache.LocalCacheServiceImpl=org.springframework.stereotype.Component
+org.cmdbuild.common.java.sql.DefaultDataSourceHelper=org.springframework.stereotype.Component

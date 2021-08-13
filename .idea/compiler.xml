@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for cmdbuild-main" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/5.1.10.RELEASE/spring-context-indexer-5.1.10.RELEASE.jar" />
+        </processorPath>
+        <module name="cmdbuild-core-commons" />
+        <module name="cmdbuild-cql-core" />
+        <module name="cmdbuild-dms-core" />
+        <module name="cmdbuild-core-chat" />
+        <module name="cmdbuild-core-model" />
+        <module name="cmdbuild-dms-cmis" />
+        <module name="cmdbuild-utils-io" />
+        <module name="cmdbuild-utils-crypto" />
+        <module name="cmdbuild-utils-privileges" />
+        <module name="cmdbuild-workflow-river" />
+        <module name="cmdbuild-auth-login" />
+        <module name="cmdbuild-auth-grant" />
+        <module name="cmdbuild-client-rest" />
+        <module name="cmdbuild-legacy-data" />
+        <module name="cmdbuild-dms-commons" />
+        <module name="cmdbuild-core-cardcache" />
+        <module name="cmdbuild-workflow-commons" />
+        <module name="cmdbuild-bim-core" />
+        <module name="cmdbuild-dao-all" />
+        <module name="cmdbuild-gis-core" />
+        <module name="cmdbuild-jobs-core" />
+        <module name="cmdbuild-dao-config" />
+        <module name="cmdbuild-utils-maven" />
+        <module name="cmdbuild-river" />
+        <module name="cmdbuild-shark-extensions" />
+        <module name="cmdbuild-shark-server" />
+        <module name="cmdbuild-report-api" />
+        <module name="cmdbuild-ui" />
+        <module name="cmdbuild-etl-api" />
+        <module name="cmdbuild-dms-sharepoint" />
+        <module name="cmdbuild-dao-postgresql" />
+        <module name="cmdbuild-dao-sql" />
+        <module name="cmdbuild-dao-core" />
+        <module name="cmdbuild" />
+        <module name="cmdbuild-utils-alfresco-migrator" />
+        <module name="cmdbuild-auth-commons" />
+        <module name="cmdbuild-core-system" />
+        <module name="cmdbuild-utils-quick" />
+        <module name="cmdbuild-utils-json" />
+        <module name="cmdbuild-shark-extensions-test" />
+        <module name="cmdbuild-jobs-runners" />
+        <module name="cmdbuild-core-configdefs" />
+        <module name="cmdbuild-utils-sked" />
+        <module name="cmdbuild-plugins-example" />
+        <module name="cmdbuild-utils-proxy" />
+        <module name="cmdbuild-core-dashboard" />
+        <module name="cmdbuild-utils-ifc" />
+        <module name="cmdbuild-dao-orm" />
+        <module name="cmdbuild-ws-client" />
+        <module name="cmdbuild-shark-test" />
+        <module name="cmdbuild-utils-lang" />
+        <module name="cmdbuild-jobs-api" />
+        <module name="cmdbuild-core-translation" />
+        <module name="cmdbuild-etl-gate" />
+        <module name="cmdbuild-core-config" />
+        <module name="cmdbuild-services-rest-commons" />
+        <module name="cmdbuild-utils-ws3" />
+        <module name="cmdbuild-widget-core" />
+        <module name="cmdbuild-core-calendar" />
+        <module name="cmdbuild-core-api" />
+        <module name="cmdbuild-core-view" />
+        <module name="cmdbuild-client-soap" />
+        <module name="cmdbuild-pocket" />
+        <module name="cmdbuild-core-all" />
+        <module name="cmdbuild-auth-session" />
+        <module name="cmdbuild-utils-script" />
+        <module name="cmdbuild-services-rest-model" />
+        <module name="cmdbuild-utils-cad" />
+        <module name="cmdbuild-gis-api" />
+        <module name="cmdbuild-services-soap" />
+        <module name="cmdbuild-widget-commons" />
+        <module name="cmdbuild-utils-test" />
+        <module name="cmdbuild-bim-bimserver" />
+        <module name="cmdbuild-core-email" />
+        <module name="cmdbuild-etl-database" />
+        <module name="cmdbuild-services-rest-v2" />
+        <module name="cmdbuild-utils-sql" />
+        <module name="cmdbuild-utils-postgres" />
+        <module name="cmdbuild-workflow-core" />
+        <module name="cmdbuild-workflow-migration" />
+        <module name="cmdbuild-shark-commons" />
+        <module name="cmdbuild-report-core" />
+        <module name="cmdbuild-dao-user" />
+        <module name="cmdbuild-core-access" />
+        <module name="cmdbuild-utils-tomcatmanager" />
+      </profile>
+      <profile name="Annotation profile for cmdbuild-etl-loader" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/5.1.10.RELEASE/spring-context-indexer-5.1.10.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/5.1.10.RELEASE/spring-context-indexer-5.1.10.RELEASE.jar" />
+        </processorPath>
+        <module name="cmdbuild-etl-loader" />
+      </profile>
+      <profile name="Annotation profile for cmdbuild-cli" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/5.1.10.RELEASE/spring-context-indexer-5.1.10.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/5.1.10.RELEASE/spring-context-indexer-5.1.10.RELEASE.jar" />
+        </processorPath>
+        <module name="cmdbuild-cli" />
+      </profile>
+      <profile name="Annotation profile for cmdbuild-workflow-shark" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/5.1.10.RELEASE/spring-context-indexer-5.1.10.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/5.1.10.RELEASE/spring-context-indexer-5.1.10.RELEASE.jar" />
+        </processorPath>
+        <module name="cmdbuild-workflow-shark" />
+      </profile>
+      <profile name="Annotation profile for cmdbuild-services-rest-v3" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/5.1.10.RELEASE/spring-context-indexer-5.1.10.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/spring-context-indexer/5.1.10.RELEASE/spring-context-indexer-5.1.10.RELEASE.jar" />
+        </processorPath>
+        <module name="cmdbuild-services-rest-v3" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cmdbuild" target="11" />
+      <module name="cmdbuild-auth-commons" target="11" />
+      <module name="cmdbuild-auth-grant" target="11" />
+      <module name="cmdbuild-auth-login" target="11" />
+      <module name="cmdbuild-auth-main" target="11" />
+      <module name="cmdbuild-auth-session" target="11" />
+      <module name="cmdbuild-bim" target="11" />
+      <module name="cmdbuild-bim-bimserver" target="11" />
+      <module name="cmdbuild-bim-core" target="11" />
+      <module name="cmdbuild-cli" target="11" />
+      <module name="cmdbuild-client-rest" target="11" />
+      <module name="cmdbuild-client-soap" target="11" />
+      <module name="cmdbuild-core-access" target="11" />
+      <module name="cmdbuild-core-all" target="11" />
+      <module name="cmdbuild-core-api" target="11" />
+      <module name="cmdbuild-core-calendar" target="11" />
+      <module name="cmdbuild-core-cardcache" target="11" />
+      <module name="cmdbuild-core-chat" target="11" />
+      <module name="cmdbuild-core-commons" target="11" />
+      <module name="cmdbuild-core-config" target="11" />
+      <module name="cmdbuild-core-configdefs" target="11" />
+      <module name="cmdbuild-core-dashboard" target="11" />
+      <module name="cmdbuild-core-email" target="11" />
+      <module name="cmdbuild-core-everything" target="11" />
+      <module name="cmdbuild-core-main" target="11" />
+      <module name="cmdbuild-core-model" target="11" />
+      <module name="cmdbuild-core-system" target="11" />
+      <module name="cmdbuild-core-translation" target="11" />
+      <module name="cmdbuild-core-view" target="11" />
+      <module name="cmdbuild-cql" target="11" />
+      <module name="cmdbuild-cql-core" target="11" />
+      <module name="cmdbuild-dao" target="11" />
+      <module name="cmdbuild-dao-all" target="11" />
+      <module name="cmdbuild-dao-config" target="11" />
+      <module name="cmdbuild-dao-core" target="11" />
+      <module name="cmdbuild-dao-orm" target="11" />
+      <module name="cmdbuild-dao-postgresql" target="11" />
+      <module name="cmdbuild-dao-sql" target="11" />
+      <module name="cmdbuild-dao-user" target="11" />
+      <module name="cmdbuild-dms" target="11" />
+      <module name="cmdbuild-dms-cmis" target="11" />
+      <module name="cmdbuild-dms-commons" target="11" />
+      <module name="cmdbuild-dms-core" target="11" />
+      <module name="cmdbuild-dms-sharepoint" target="11" />
+      <module name="cmdbuild-etl-api" target="11" />
+      <module name="cmdbuild-etl-database" target="11" />
+      <module name="cmdbuild-etl-gate" target="11" />
+      <module name="cmdbuild-etl-loader" target="11" />
+      <module name="cmdbuild-etl-main" target="11" />
+      <module name="cmdbuild-gis-api" target="11" />
+      <module name="cmdbuild-gis-core" target="11" />
+      <module name="cmdbuild-gis-main" target="11" />
+      <module name="cmdbuild-jobs-api" target="11" />
+      <module name="cmdbuild-jobs-core" target="11" />
+      <module name="cmdbuild-jobs-main" target="11" />
+      <module name="cmdbuild-jobs-runners" target="11" />
+      <module name="cmdbuild-legacy-data" target="11" />
+      <module name="cmdbuild-main" target="11" />
+      <module name="cmdbuild-parent" target="11" />
+      <module name="cmdbuild-plugins-example" target="11" />
+      <module name="cmdbuild-pocket" target="11" />
+      <module name="cmdbuild-report-api" target="11" />
+      <module name="cmdbuild-report-core" target="11" />
+      <module name="cmdbuild-report-main" target="11" />
+      <module name="cmdbuild-river" target="11" />
+      <module name="cmdbuild-services-rest" target="11" />
+      <module name="cmdbuild-services-rest-commons" target="11" />
+      <module name="cmdbuild-services-rest-model" target="11" />
+      <module name="cmdbuild-services-rest-v2" target="11" />
+      <module name="cmdbuild-services-rest-v3" target="11" />
+      <module name="cmdbuild-services-soap" target="11" />
+      <module name="cmdbuild-shark" target="11" />
+      <module name="cmdbuild-shark-commons" target="11" />
+      <module name="cmdbuild-shark-extensions" target="11" />
+      <module name="cmdbuild-shark-extensions-test" target="11" />
+      <module name="cmdbuild-shark-server" target="11" />
+      <module name="cmdbuild-shark-test" target="11" />
+      <module name="cmdbuild-ui" target="11" />
+      <module name="cmdbuild-utils-alfresco-migrator" target="11" />
+      <module name="cmdbuild-utils-cad" target="11" />
+      <module name="cmdbuild-utils-crypto" target="11" />
+      <module name="cmdbuild-utils-ifc" target="11" />
+      <module name="cmdbuild-utils-io" target="11" />
+      <module name="cmdbuild-utils-json" target="11" />
+      <module name="cmdbuild-utils-lang" target="11" />
+      <module name="cmdbuild-utils-maven" target="11" />
+      <module name="cmdbuild-utils-postgres" target="11" />
+      <module name="cmdbuild-utils-privileges" target="11" />
+      <module name="cmdbuild-utils-proxy" target="11" />
+      <module name="cmdbuild-utils-quick" target="11" />
+      <module name="cmdbuild-utils-script" target="11" />
+      <module name="cmdbuild-utils-sked" target="11" />
+      <module name="cmdbuild-utils-sql" target="11" />
+      <module name="cmdbuild-utils-test" target="11" />
+      <module name="cmdbuild-utils-tomcatmanager" target="11" />
+      <module name="cmdbuild-utils-ws3" target="11" />
+      <module name="cmdbuild-widget-commons" target="11" />
+      <module name="cmdbuild-widget-core" target="11" />
+      <module name="cmdbuild-widget-main" target="11" />
+      <module name="cmdbuild-workflow-commons" target="11" />
+      <module name="cmdbuild-workflow-core" target="11" />
+      <module name="cmdbuild-workflow-main" target="11" />
+      <module name="cmdbuild-workflow-migration" target="11" />
+      <module name="cmdbuild-workflow-river" target="11" />
+      <module name="cmdbuild-workflow-shark" target="11" />
+      <module name="cmdbuild-ws-client" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

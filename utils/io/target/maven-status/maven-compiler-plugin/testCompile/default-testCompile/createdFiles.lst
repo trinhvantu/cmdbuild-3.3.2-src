@@ -1,0 +1,13 @@
+org\cmdbuild\utils\io\test\DataHandlerTest.class
+org\cmdbuild\utils\io\test\CmImageUtilsTest.class
+org\cmdbuild\utils\io\test\ObjectSerializationTest.class
+org\cmdbuild\utils\io\test\ContentTypeTest.class
+org\cmdbuild\utils\io\test\CmCompressUtilsTest.class
+org\cmdbuild\utils\io\test\UrlUtilsTest.class
+org\cmdbuild\utils\io\test\CmProcessUtilsTest.class
+org\cmdbuild\utils\io\test\SoapUtilsTest.class
+org\cmdbuild\utils\io\test\ZipUtilsTest.class
+org\cmdbuild\utils\io\test\CmIoTest.class
+org\cmdbuild\utils\io\test\TarUtilsTest.class
+org\cmdbuild\utils\io\test\ObjectSerializationTest$TestBean.class
+org\cmdbuild\utils\io\test\HtmlSanitizerUtilsTest.class

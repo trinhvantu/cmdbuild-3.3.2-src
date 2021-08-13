@@ -1,0 +1,4 @@
+#
+#Fri Aug 13 08:02:03 ICT 2021
+org.cmdbuild.utils.ws3.test.Ws3RestTest$MyServiceBean=javax.ws.rs.Path
+org.cmdbuild.utils.ws3.test.Ws3RestTest$MyOtherServiceBean=javax.ws.rs.Path

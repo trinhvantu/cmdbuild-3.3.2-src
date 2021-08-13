@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: at.together:tro-dbmanager:9.1-1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/at/together/tro-dbmanager/9.1-1/tro-dbmanager-9.1-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/at/together/tro-dbmanager/9.1-1/tro-dbmanager-9.1-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/at/together/tro-dbmanager/9.1-1/tro-dbmanager-9.1-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

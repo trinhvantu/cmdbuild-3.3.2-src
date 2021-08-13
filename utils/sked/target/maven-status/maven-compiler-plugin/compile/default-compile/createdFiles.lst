@@ -1,0 +1,13 @@
+org\cmdbuild\utils\sked\inner\SkedServiceImpl.class
+org\cmdbuild\utils\sked\SkedJobClusterMode.class
+org\cmdbuild\utils\sked\inner\SkedServiceImpl$SkedTrigger.class
+org\cmdbuild\utils\sked\SkedException.class
+org\cmdbuild\utils\sked\DefaultSkedEnv.class
+org\cmdbuild\utils\sked\Sked.class
+org\cmdbuild\utils\sked\SkedEnv.class
+org\cmdbuild\utils\sked\SkedJob.class
+org\cmdbuild\utils\sked\SkedJobImpl$SkedJobImplBuilder.class
+org\cmdbuild\utils\sked\SkedJobImpl.class
+org\cmdbuild\utils\sked\SkedJobInfo.class
+org\cmdbuild\utils\sked\SkedService.class
+org\cmdbuild\utils\sked\inner\SkedJobInfoImpl.class

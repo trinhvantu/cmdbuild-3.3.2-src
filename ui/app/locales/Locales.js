@@ -1,0 +1,775 @@
+Ext.define('CMDBuildUI.locales.Locales', {
+    requires: ['CMDBuildUI.locales.LocalesAdministration'],
+    singleton: true,
+    localization: 'en',
+    administration: CMDBuildUI.locales.LocalesAdministration.administration,
+    common: {
+        actions: {
+            add: 'Add',
+            apply: 'Apply',
+            cancel: 'Cancel',
+            close: 'Close',
+            delete: 'Delete',
+            edit: 'Edit',
+            execute: 'Execute',
+            help: 'Help',
+            load: 'Load',
+            open: 'Open',
+            refresh: 'Refresh data',
+            remove: 'Remove',
+            save: 'Save',
+            saveandapply: 'Save and apply',
+            saveandclose: 'Save and close',
+            search: 'Search',
+            searchtext: 'Search...'
+        },
+        attributes: {
+            nogroup: 'Base data'
+        },
+        editor: {
+            clearhtml: 'Clear HTML',
+            expand: 'Expand editor',
+            reduce: 'Reduce editor',
+            unlink: 'Unlink',
+            unlinkmessage: 'Transform the selected hyperlink into text.'
+        },
+        dates: {
+            // Reffer to https://docs.sencha.com/extjs/6.2.0/classic/Ext.Date.html
+            date: 'd/m/Y',
+            datetime: 'd/m/Y H:i:s',
+            time: 'H:i:s'
+        },
+        grid: {
+            opencontextualmenu: 'Open contextual menu',
+            disablemultiselection: 'Disable multi selection',
+            enamblemultiselection: 'Enable multi selection',
+            filterremoved: 'The current filter has been removed',
+            itemnotfound: 'Item not found',
+            subtype: 'Subtype',
+            list: 'List',
+            row: 'Item',
+            rows: 'Items',
+            print: 'Print',
+            printcsv: 'Print as CSV',
+            printpdf: 'Print as PDF',
+            printodt: 'Print as ODT',
+            import: 'Import data',
+            export: 'Export data'
+        },
+        tabs: {
+            activity: 'Activity',
+            attachments: 'Attachments',
+            attachment: 'Attachment',
+            card: 'Card',
+            details: 'Details',
+            emails: 'Emails',
+            history: 'History',
+            notes: 'Notes',
+            relations: 'Relations',
+            clonerelationmode: 'Clone Relations Mode',
+            schedules: 'Schedules'
+        }
+    },
+    main: {
+        administrationmodule: 'Administration module',
+        baseconfiguration: 'Base configuration',
+        changegroup: 'Change group',
+        changetenant: 'Change {0}',
+        confirmchangegroup: 'Are you sure that you want to change the group?',
+        confirmchangetenants: 'Are you sure that you want to change active tenants?',
+        confirmdisabletenant: 'Are you sure that you want to disable "Ignore tenants" flag?',
+        confirmenabletenant: 'Are you sure that you want to enable "Ignore tenants" flag?',
+        ignoretenants: 'Ignore {0}',
+        logout: 'Logout',
+        managementmodule: 'Data management module',
+        multitenant: 'Multi {0}',
+        multigroup: 'Multi group',
+        navigation: 'Navigation',
+        searchinallitems: 'Search in all items',
+        userpreferences: 'Preferences',
+        pagenotfound: 'Page not found',
+        pleasecorrecterrors: 'Please correct indicated errors!',
+        info: 'Info',
+        treenavcontenttitle: '{0} of {1}',
+        cardlock: {
+            lockedmessage: 'You can\'t edit this card because {0} is editing it.',
+            someone: 'someone'
+        },
+        logo: {
+            cmdbuild: 'CMDBuild logo',
+            cmdbuildready2use: 'CMDBuild READY2USE logo',
+            openmaint: 'openMAINT logo',
+            companylogo: 'Company logo'
+        },
+        preferences: {
+            defaultvalue: 'Default value',
+            timezone: 'Timezone',
+            labellanguage: 'Language',
+            labeldateformat: 'Date format',
+            labeltimeformat: 'Time format',
+            labeldecimalsseparator: 'Decimals separator',
+            labelthousandsseparator: 'Thousands separator',
+            decimalserror: 'Decimals field must be present',
+            thousandserror: 'Thousands field must be present',
+            decimalstousandserror: 'Decimals and Thousands separator must be differents',
+            comma: 'Comma',
+            period: 'Period',
+            space: 'Space',
+            twentyfourhourformat: '24-hour format',
+            twelvehourformat: '12-hour format',
+            preferredofficesuite: 'Preferred Office suite',
+            default: 'Default',
+            msoffice: 'Microsoft Office',
+            gridpreferencessave: 'Save grid preferences',
+            gridpreferencessaved: 'Grid preferences saved!',
+            gridpreferencesclear: 'Clear grid preferences',
+            gridpreferencescleared: 'Grid preferences cleared!',
+            gridpreferencesupdate: 'Update grid preferences',
+            preferredfilecharset: 'CSV encoding',
+            labelcsvseparator: 'CSV separator',
+            firstdayofweek: 'First day of week'
+        },
+        password: {
+            change: 'Change password',
+            confirm: 'Confirm password',
+            email: 'E-mail address',
+            err_confirm: 'Password doesn\'t match.',
+            err_diffprevious: 'The password cannot be identical to the previous one.',
+            err_diffusername: 'The password cannot be identical to the username.',
+            err_length: 'The password must be at least {0} characters long.',
+            err_reqdigit: 'The password must contain at least one digit.',
+            err_reqlowercase: 'The password must contain at least one lowercase character.',
+            err_requppercase: 'The password must contain at least one uppercase character.',
+            expired: 'Your password has expired. You must change it now.',
+            forgotten: 'I forgot my password',
+            new: 'New password',
+            old: 'Old password',
+            reset: 'Reset password',
+            recoverysuccess: 'We have sent you an email with instruction to recover your password.',
+            saved: 'Password correctly saved!'
+        }
+    },
+    login: {
+        title: 'Login',
+        fields: {
+            username: 'Username',
+            password: 'Password',
+            language: 'Language',
+            group: 'Group',
+            tenants: 'Tenants'
+        },
+        welcome: 'Welcome back {0}.',
+        loggedin: 'Logged in',
+        buttons: {
+            login: 'Login',
+            logout: 'Change user'
+        }
+    },
+    notifier: {
+        attention: 'Attention',
+        error: 'Error',
+        info: 'Info',
+        success: 'Success',
+        warning: 'Warning',
+        genericerror: 'Generic error',
+        genericwarning: 'Generic warning',
+        genericinfo: 'Generic info'
+    },
+    menu: {
+        allitems: 'All items',
+        classes: 'Classes',
+        processes: 'Processes',
+        reports: 'Reports',
+        dashboards: 'Dashboards',
+        views: 'Views',
+        custompages: 'Custom pages'
+    },
+    classes: {
+        cards: {
+            label: 'Cards',
+            addcard: 'Add card',
+            clone: 'Clone',
+            clonewithrelations: 'Clone card and relations',
+            deletecard: 'Delete card',
+            deleteconfirmation: 'Are you sure that you want to delete this card?',
+            deleterelatedcards: 'also {0} related cards will be deleted',
+            deleterelations: 'relations with {0} cards will be deleted',
+            deletebeaware: 'Be aware that:',
+            deleteblocked: 'It is not possible to proceed with the deletion because there are relations with {0}.',
+            modifycard: 'Modify card',
+            opencard: 'Open card',
+            print: 'Print card'
+        },
+        simple: 'Simple',
+        standard: 'Standard'
+    },
+    processes: {
+        abortprocess: 'Abort process',
+        abortconfirmation: 'Are you sure that you want to abort this process?',
+        action: {
+            advance: 'Advance',
+            label: 'Action'
+        },
+        allstatuses: 'All',
+        editactivity: 'Modify activity',
+        activeprocesses: 'Active processes',
+        openactivity: 'Open activity',
+        startworkflow: 'Start',
+        workflow: 'Workflow'
+    },
+    notes: {
+        edit: 'Modify notes'
+    },
+    relations: {
+        adddetail: 'Add detail',
+        addrelations: 'Add relations',
+        attributes: 'Attributes',
+        code: 'Code',
+        deletedetail: 'Delete detail',
+        deleterelation: 'Delete relation',
+        deleterelationconfirm: 'Are you sure that you want to delete this relation?',
+        description: 'Description',
+        editcard: 'Edit card',
+        editdetail: 'Edit detail',
+        editrelation: 'Edit relation',
+        extendeddata: 'Extended data',
+        mditems: 'items',
+        missingattributes: 'Missing mandatory attributes',
+        opencard: 'Open related card',
+        opendetail: 'Show detail',
+        type: 'Type'
+    },
+    history: {
+        begindate: 'Begin date',
+        enddate: 'End date',
+        user: 'User',
+        activityname: 'Activity name',
+        activityperformer: 'Activity performer',
+        processstatus: 'Status'
+    },
+    attachments: {
+        add: 'Add attachment',
+        new: 'New attachment',
+        author: 'Author',
+        category: 'Category',
+        nocategory: 'Uncategorized',
+        creationdate: 'Creation date',
+        deleteattachment: 'Delete attachment',
+        deleteattachment_confirmation: 'Are you sure that you want to delete this attachment?',
+        description: 'Description',
+        code: 'Code',
+        preview: 'Preview',
+        download: 'Download',
+        editattachment: 'Modify attachment',
+        file: 'File',
+        filename: 'File name',
+        fileview: 'View attachment',
+        majorversion: 'Major version',
+        modificationdate: 'Modification date',
+        uploadfile: 'Upload file...',
+        version: 'Version',
+        viewhistory: 'View attachment history',
+        attachmenthistory: 'Attachment History',
+        wrongfileextension: '{0} file extension is not allowed',
+        dropfiles: 'Drop files here',
+        filealreadyinlist: 'The file {0} is already in list.',
+        removefile: 'Remove file',
+        browse: 'Browse &hellip;',
+        successupload: '{0} attachments uploaded.',
+        warningmessages: {
+            atleast: 'Warning:{0} attachments of type \"{1}\" have been loaded. This category expects at least {2} attachments.',
+            exactlynumber: 'Warning:{0} attachments of type \"{1}\" have been loaded. This category expects {2} attachments.',
+            maxnumber: 'Warning:{0} attachments of type \"{1}\" have been loaded. This category expects at most {2}  attachments.'
+        },
+        invalidfiles: 'Remove invalid files',
+        statuses: {
+            ready: 'Ready',
+            extensionNotAllowed: 'File extension not allowed',
+            loaded: 'Loaded',
+            error: 'Error',
+            empty: 'Empty file'
+        }
+    },
+    emails: {
+        keepsynchronization: 'Keep synchronization',
+        delay: 'Delay',
+        dmspaneltitle: 'Choose attachments from Database',
+        from: 'From',
+        to: 'To',
+        cc: 'Cc',
+        bcc: 'Bcc',
+        subject: 'Subject',
+        message: 'Message',
+        attachfile: 'Attach file',
+        selectaclass: 'Select a class',
+        addattachmentsfromdocumentarchive: 'Add attachments from the document archive',
+        alredyexistfile: 'Already exists a file with this name',
+        composefromtemplate: 'Compose from template',
+        composeemail: 'Compose e-mail',
+        regenerateallemails: 'Regenerate all e-mails',
+        gridrefresh: 'Grid refresh',
+        archivingdate: 'Archiving date',
+        sendemail: 'Send e-mail',
+        reply: 'reply',
+        regenerateemail: 'Regenerate e-mail',
+        remove: 'Remove',
+        edit: 'Edit',
+        view: 'View',
+        replyprefix: 'On {0}, {1} wrote:',
+        remove_confirmation: 'Are you sure that you want to delete this email?',
+        delays: {
+            day1: "In 1 day",
+            days2: "In 2 days",
+            days4: "In 4 days",
+            hour1: "1 hour",
+            hours2: "2 hours",
+            hours4: "4 hours",
+            month1: "In 1 month",
+            none: "None",
+            week1: "In 1 week",
+            weeks2: "In 2 weeks",
+            negativeday1: "1 day before",
+            negativedays2: "2 days before",
+            negativedays4: "4 days before",
+            negativehour1: "1 hour before",
+            negativehours2: "2 hours before",
+            negativehours4: "4 hours before",
+            negativemonth1: "1 month before",
+            negativeweek1: "1 week before",
+            negativeweeks2: "2 weeks before"
+        },
+        statuses: {
+            draft: 'Draft',
+            error: 'Error',
+            outgoing: 'Outgoing',
+            received: 'Received',
+            sent: 'Sent'
+
+        }
+    },
+    widgets: {
+        required: 'This widget is required.',
+        linkcards: {
+            togglefilterenabled: 'Enable grid filter',
+            togglefilterdisabled: 'Disable grid filter',
+            refreshselection: 'Apply default selection',
+            opencard: 'Open card',
+            editcard: 'Edit card',
+            checkedonly: 'Checked only',
+            errors: {
+
+            }
+        },
+        customform: {
+            addrow: 'Add row',
+            clonerow: 'Clone row',
+            deleterow: 'Delete row',
+            editrow: 'Edit row',
+            export: 'Export',
+            import: 'Import',
+            refresh: 'Refresh to defaults',
+            datanotvalid: 'Data not valid',
+            importexport: {
+                filename: 'File name',
+                format: 'Format',
+                separator: 'Separator',
+                expattributes: 'Data to export',
+                keyattributes: 'Key attributes',
+                importmode: 'Import mode',
+                modeadd: 'Add',
+                modemerge: 'Merge',
+                modereplace: 'Replace',
+                file: 'File',
+                missingkeyattr: 'Please choose at least one key attribute'
+            },
+            datanotvalid: 'Data not valid'
+        }
+    },
+    filters: {
+        addfilter: 'Add filter',
+        any: 'Any',
+        attachments: 'Attachments',
+        attachmentssearchtext: 'Attachments search text',
+        attributes: 'Attributes',
+        attribute: 'Choose an attribute',
+        clearfilter: 'Clear filter',
+        copyof: 'Copy of',
+        description: 'Description',
+        filterdata: 'Filter data',
+        fromfilter: 'From filter',
+        fromselection: 'From selection',
+        name: 'Name',
+        newfilter: 'New filter',
+        noone: 'No one',
+        operator: 'Operator',
+        relations: 'Relations',
+        type: 'Type',
+        typeinput: 'Input Parameter',
+        group: 'Group',
+        currentgroup: 'Current group',
+        user: 'User',
+        currentuser: 'Current user',
+        value: 'Value',
+        actions: 'Actions',
+        ignore: 'Ignore',
+        migrate: 'Migrates',
+        clone: 'Clone',
+        domain: 'Domain',
+        defaultset: 'Set as default',
+        defaultunset: 'Unset from default',
+        operators: {
+            beginswith: 'Begins with',
+            between: 'Between',
+            contained: 'Contained',
+            containedorequal: 'Contained or equal',
+            contains: 'Contains',
+            containsorequal: 'Contains or equal',
+            different: 'Different',
+            doesnotbeginwith: 'Does not begin with',
+            doesnotcontain: 'Does not contain',
+            doesnotendwith: 'Does not end with',
+            endswith: 'Ends with',
+            equals: 'Equals',
+            greaterthan: 'Greater than',
+            isnotnull: 'Is not null',
+            isnull: 'Is null',
+            lessthan: 'Less than',
+            descriptioncontains: 'Description contains',
+            descriptionnotcontain: 'Description does not contain',
+            descriptionbegin: 'Description begins with',
+            descriptionnotbegin: 'Description does not begins with',
+            descriptionends: 'Description ends with',
+            descriptionnotends: 'Description does not ends with'
+        }
+    },
+    gis: {
+        tree: 'Tree',
+        list: 'List',
+        card: 'Card',
+        layers: 'Layers',
+        geographicalAttributes: 'Geo Attributes',
+        root: 'Root',
+        externalServices: 'External services',
+        geoserverLayers: 'Geoserver layers',
+        mapServices: 'Map Services',
+        view: 'View',
+        zoom: 'Zoom',
+        position: 'Position',
+        map: 'Map',
+        cardsMenu: 'Cards Menu',
+        extension: {
+            errorCall: 'Error',
+            noResults: 'No Results'
+        },
+        code: 'Code',
+        description: 'Description',
+        type: 'Type',
+        longpresstitle: 'Geoelements in area'
+
+    },
+    thematism: {
+        thematism: 'Thematisms',
+        graduated: 'Graduated',
+        punctual: 'Punctual',
+        intervals: 'Intervals',
+        analysisType: 'Analysis Type',
+        legend: 'Legend',
+        highlightSelected: 'Highlight selected item',
+        source: 'Source',
+        table: 'Table',
+        function: 'Function',
+        attribute: 'Attribute',
+        geoAttribute: 'Geographic Attribute',
+        value: 'Value',
+        quantity: 'Count',
+        color: 'Color',
+        generate: 'Generate',
+        addThematism: 'Add Thematism',
+        newThematism: 'New Thematism',
+        clearThematism: 'Clear Thematism',
+        calculateRules: 'Generate style rules',
+        defineThematism: 'Thematism definition',
+        defineLegend: 'Legend definition',
+        name: 'name',
+        segments: 'Segments'
+    },
+    calendar: {
+        days: 'Days',
+        event: 'Schedule',
+        editevent: 'Edit schedule',
+        viewevent: 'View schedule',
+        scheduler: 'Scheduler',
+        complete: 'Mark as done',
+        cancel: 'Mark as cancelled',
+        operation: 'Operation',
+        calendar: 'Calendar',
+        grid: 'Grid',
+        category: 'Category',
+        priority: 'Priority',
+        startdate: 'Start Date',
+        enddate: 'End Date',
+        occurencies: 'Number of occurencies',
+        type: 'Type',
+        frequency: 'Frequency',
+        frequencymultiplier: 'Frequency multiplier',
+        recalculate: 'Recalculate',
+        add: 'Add schedule',
+        date: 'Date',
+        leftdays: 'Days to go',
+        description: 'Description',
+        londdescription: 'Full Description',
+        referent: 'Referent',
+        advancenotification: 'Days advance notification', //to remove
+        sequencepaneltitle: 'Generate schedules',
+        executiondate: 'Execution Date',
+        status: 'Status',
+        active_expired: 'Active/Expired',
+        allcategories: 'All categories',
+        today: 'Today',
+        next7days: 'Next 7 days',
+        next30days: 'Next 30 days',
+        alldates: 'All dates',
+        messagetitle: 'Schedule recalculating',
+        messagebodyplural: 'There are {0} schedule rules',
+        messagebodysingular: 'There is {0} schedule rule',
+        messagebodyrecalculate: ' Would you like to recalculate the schedules rule with the new date?',
+        messagebodydelete: 'Would you like to remove schedulers rule?',
+        maxactiveevents: 'Max active schedules',
+        widgetsourcecard: 'Source card',
+        widgetcriterion: 'Calculation criterion',
+        widgetemails: 'Emails',
+        notificationtext: 'Notification text',
+        partecipantgroup: 'Participant group',
+        partecipantuser: 'Participant user',
+        missingdays: 'Missing days',
+        completed: 'Completed',
+        manual: 'Manual',
+        cm_markcomplete: 'Mark as completed selected schedules',
+        cm_markcancelled: 'Mark as cancelled selected schedules',
+        cm_confirmcomplete: 'Are you sure that you want to mark as completed selected schedules?',
+        cm_confirmcancel: 'Are you sure that you want to mark as cancelled selected schedules?',
+        calculated: 'Calculated',
+        manual: 'Manual',
+        endtype: 'End type',
+        delaybeforedeadline: 'Delay before deadline',
+        delaybeforedeadlinevalue: 'Delay before deadline value',
+        notificationtemplate: 'Template used for notification'
+    },
+    patches: {
+        apply: 'Apply patches',
+        patches: 'Patches',
+        name: 'Name',
+        description: 'Description',
+        category: 'Category'
+    },
+    relationGraph: {
+        openRelationGraph: 'Open Relation Graph',
+        relationGraph: 'Relation Graph',
+        card: 'Card',
+        cardRelations: 'Card Relations',
+        cardList: 'Card List',
+        classList: 'Class List',
+        relation: 'relation',
+        level: 'Level',
+        refresh: 'Refresh',
+        class: 'Class',
+        activity: 'activity',
+        qt: 'Qt',
+        reopengraph: 'Reopen the graph from this node',
+        choosenaviagationtree: 'Choose navigation tree',
+        labelsOnGraph: 'tooltip on graph',
+        allLabelsOnGraph: 'all labels on graph',
+        enable: 'Enable',
+        disable: 'Disable',
+        compoundnode: 'Compound Node',
+        nodes: 'Nodes',
+        edges: 'Edges'
+
+    },
+    bim: {
+        showBimCard: 'Open 3D viewer',
+        bimViewer: 'Bim Viewer',
+        tree: {
+            label: 'Tree',
+            columnLabel: 'Tree',
+            arrowTooltip: 'Select element',
+            open_card: "Open related card",
+            root: 'Ifc Root'
+        },
+        layers: {
+            label: 'Layers',
+            name: 'Name',
+            visibility: 'Visibility',
+            qt: 'Qt',
+            menu: {
+                showAll: 'Show All',
+                hideAll: 'Hide All'
+            }
+        },
+        card: {
+            label: 'Card'
+        },
+        menu: {
+            camera: 'Camera',
+            resetView: 'Reset View',
+            frontView: 'Front View',
+            sideView: 'Side View',
+            topView: 'Top View',
+            mod: 'Viewer controls',
+            rotate: 'rotate',
+            pan: 'Scroll',
+            perspective: 'Perspective Camera',
+            orthographic: 'Orthographic Camera'
+        }
+    },
+    errors: {
+        classnotfound: 'Class {0} not found',
+        notfound: 'Item not found',
+        autherror: 'Wrong username or password',
+        fieldrequired: 'This field is required',
+        invalidfilter: 'Invalid filter'
+    },
+    reports: {
+        download: 'Download',
+        format: 'Format',
+        csv: 'CSV',
+        odt: 'ODT',
+        pdf: 'PDF',
+        rtf: 'RTF',
+        print: 'Print',
+        reload: 'Reload'
+    },
+    importexport: {
+        import: 'Import',
+        export: 'Export',
+        template: 'Template',
+        importresponse: 'Import response',
+        downloadreport: 'Download report',
+        sendreport: 'Send report',
+        emailsubject: 'Import data report',
+        emailmessage: 'Attached import report of file \"{0}\" on date {1}',
+        emailsuccess: 'The email has been sent successfully!',
+        emailfailure: 'Error occurred while sending email!',
+        templatedefinition: 'Template definition',
+        exportalldata: 'All data',
+        exportfiltereddata: 'Only data matching the grid filter',
+        response: {
+            processed: 'Processed rows',
+            created: 'Created items',
+            modified: 'Modified items',
+            deleted: 'Deleted items',
+            unmodified: 'Unmodified items',
+            errors: 'Errors',
+            recordnumber: 'Record number',
+            linenumber: 'Line number',
+            message: 'Message'
+        },
+        gis: {
+            shapeimportdisabled: 'The import of shapes is not enabled for this template',
+            shapeimportenabled: 'Shapes import configuration'
+        },
+        database: {
+            uri: 'Database URI',
+            user: 'Database user'
+        },
+        ifc: {
+            sourcetype: 'Import from',
+            project: 'Project',
+            card: 'Card'
+        }
+    },
+    dashboards: {
+        tools: {
+            gridhide: 'Hide data grid',
+            gridshow: 'Show data grid',
+            parametershide: 'Hide data parameters',
+            parametersshow: 'Show data parameters',
+            reload: 'Reload'
+        }
+    },
+    bulkactions: {
+        abort: 'Abort selected items',
+        edit: 'Edit selected items',
+        delete: 'Delete selected items',
+        download: 'Download selected attachments',
+        selectall: 'Select all items',
+        cancelselection: 'Cancel selection',
+        confirmedit: 'You are modifying {0} on {1} cards. Are you sure that you want to proceed?',
+        confirmdelete: 'You are deleting {0} cards. Are you sure that you want to proceed?',
+        confirmabort: 'You are aborting {0} process instances. Are you sure that you want to proceed?',
+        confirmdeleteattachements: 'You are deleting {0} attachments. Are you sure that you want to proceed?'
+    },
+    system: {
+        data: {
+            lookup: {
+                CalendarCategory: {
+                    'default': {
+                        description: 'Default'
+                    }
+                },
+                CalendarPriority: {
+                    'default': {
+                        description: 'Default'
+                    }
+                },
+                CalendarFrequency: {
+                    'once': {
+                        description: 'Once'
+                    },
+                    'daily': {
+                        description: 'Daily'
+                    },
+                    'weekly': {
+                        description: 'Weekly'
+                    },
+                    'monthly': {
+                        description: 'Monthly'
+                    },
+                    'yearly': {
+                        description: 'Yearly'
+                    }
+                }
+            }
+        }
+    },
+    joinviews: {
+        active: 'Active',
+        alias: 'Alias',
+        attribute: 'Attribute',
+        attributes: 'Attributes',
+        attributesof: 'Attributes of: {0}',
+        addview: 'Add view',
+        joinview: 'View from join',
+        newjoinview: 'New view from join',
+        createview: 'Create view',
+        datasorting: 'Data sortings',
+        delete: 'Delete',
+        deleteview: 'Delete view',
+        deleteviewconfirm: 'Are you sure that you want to delete this view?',
+        description: 'Description',
+        disable: 'Disable',
+        domainalias: 'Domain alias',
+        domainsof: 'Domains of {0}',
+        edit: 'Edit',
+        editview: 'Edit view configuration',
+        enable: 'Enable',
+        fieldsets: 'Fieldsets',
+        filters: 'Filters',
+        generalproperties: 'General properties',
+        group: 'Group',
+        innerjoin: 'Inner join',
+        jointype: 'Join type',
+        klass: 'Class',
+        manageview: 'Manage view',
+        masterclass: 'Master class',
+        masterclassalias: 'Master class alias',
+        name: 'Name',
+        outerjoin: 'Outer join',
+        pleaseseleceavalidmasterclass: 'Please select a valid master class',
+        refreshafteredit: 'Do you want to refresh the page to see the changes?',
+        selectatleastoneattribute: 'Please select at least one attribute to display in grid and in reduced grid on step 4.',
+        showingrid: 'Show in grid',
+        showinreducedgrid: 'Show in reduced grid',
+        targetalias: 'Target class alias'
+    }
+});

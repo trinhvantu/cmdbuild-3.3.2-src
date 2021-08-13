@@ -1,0 +1,3 @@
+org\cmdbuild\utils\json\test\JsonParsingTest.class
+org\cmdbuild\utils\json\test\JsonProcessingTest.class
+org\cmdbuild\utils\json\test\JsonProcessingTest$MyEnum.class

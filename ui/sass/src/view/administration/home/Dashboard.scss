@@ -1,0 +1,16 @@
+@include extjs-panel-ui(
+    $ui: 'admindashboard',
+
+    $ui-header-color: $color,
+    $ui-header-border-color: $administration-base-color,
+    $ui-header-border-width: 1px,
+    $ui-header-background-color: transparent,
+    $ui-header-text-padding: 9px 5px,
+    $ui-tool-glyph-color: lighten($color, 15%),
+    $ui-tool-spacing: 10px
+);
+
+.#{$prefix}panel-header-admindashboard-horizontal.#{$prefix}header-noborder {
+    padding: 0;
+    border-bottom-width: 1px !important;
+}

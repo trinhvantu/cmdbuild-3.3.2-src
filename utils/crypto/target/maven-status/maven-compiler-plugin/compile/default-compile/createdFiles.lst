@@ -1,0 +1,14 @@
+org\cmdbuild\utils\crypto\Cm3EasyCryptoUtils.class
+org\cmdbuild\utils\crypto\MagicUtils.class
+org\cmdbuild\utils\random\CmRandomUtils.class
+org\cmdbuild\utils\crypto\PasswordBulletsUtils.class
+org\cmdbuild\utils\crypto\Cm3PasswordUtils.class
+org\cmdbuild\utils\crypto\CmRsaUtils.class
+org\cmdbuild\utils\crypto\CmLegacyPasswordUtils.class
+org\cmdbuild\utils\encode\CmEncodeUtils.class
+org\cmdbuild\utils\hash\CmHashUtils.class
+org\cmdbuild\utils\crypto\Cm3EasyCryptoUtils$Cm3EasyCryptoHelper.class
+org\cmdbuild\utils\crypto\Cm3PasswordUtils$Cm3APasswordHelper.class
+org\cmdbuild\utils\encode\CmPackUtils.class
+org\cmdbuild\utils\crypto\CmLegacyPasswordUtils$CmLegacyHelper.class
+org\cmdbuild\utils\crypto\MagicUtils$MagicUtilsHelper.class

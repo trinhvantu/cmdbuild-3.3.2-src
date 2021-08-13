@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cmdbuild:war">
+    <output-path>$PROJECT_DIR$/cmdbuild/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>cmdbuild</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="cmdbuild.war">
+      <element id="artifact" artifact-name="cmdbuild:war exploded" />
+    </root>
+  </artifact>
+</component>
